@@ -245,7 +245,7 @@ public class fib {
 		 long fib1 = 0;
 		 long fib2 = 1;
 		for(int i = 2;i<=n;i++) {
-			// to avoid overflow use long long
+			// to avoid overflow use long 
 			 long temp = fib1 ;
 			fib1 = fib1+fib2;
 			fib2 =temp;
